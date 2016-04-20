@@ -2,7 +2,7 @@ FROM java:8-jre
 MAINTAINER Erlend Klakegg Bergheim
 
 #RUN wget -q http://repo1.maven.org/maven2/no/difi/vefa/validator-build/2.0.2/validator-build-2.0.2-jar-with-dependencies.jar -O /vefa-validator-build.jar
-RUN wget -q https://jitpack.io/com/github/difi/vefa-validator/validator-build/198d6e9508/validator-build-198d6e9508-jar-with-dependencies.jar -O /vefa-validator-build.jar
+RUN wget -q https://jitpack.io/com/github/difi/vefa-validator/validator-build/6441b87ca6/validator-build-6441b87ca6-jar-with-dependencies.jar -O /vefa-validator-build.jar
 
 VOLUME /src
 
